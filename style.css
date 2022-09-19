@@ -1,0 +1,54 @@
+body {
+	background-color: black;
+	font-family: cursive;
+  }
+
+  img {
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+	.glow {
+		font-size: 50px;
+		color: rgb(254, 254, 254);
+		text-align: center;
+		animation: glow 1s ease-in-out infinite alternate;
+	  }
+	  
+	  @-webkit-keyframes glow {
+		from {
+		  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+		}
+		
+		to {
+		  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+		}
+	  }
+
+hr.hr1 {
+		border-top: 1px dashed red;
+		width: 30%;
+	  }
+hr.hr2 {
+		border: 2px solid red;
+		width: 40%;
+	  }
+.heading { color: #fff;}
+.ip-address p{
+		color: red;
+		font-weight: bold;
+	}
+#demo {color: red;}
+
+.footer p{
+			padding: 5px;
+			background-color: rgb(250, 243, 243);
+			font-weight: bold;
+			text-align: center;
+		}
+.footer i
+{
+	color: red;
+}
